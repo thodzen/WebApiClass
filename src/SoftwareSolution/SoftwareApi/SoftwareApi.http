@@ -1,0 +1,22 @@
+@Api_HostAddress = http://localhost:1337
+
+
+
+###
+POST {{Api_HostAddress}}/vendors/09af54c4-3d55-42cc-b607-9328bd31bc92/catalog
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImJvYkBjb21wYW55LmNvbSIsInN1YiI6ImJvYkBjb21wYW55LmNvbSIsImp0aSI6IjcwOGE1MDBlIiwicm9sZSI6WyJzb2Z0d2FyZS1jZW50ZXIiLCJqYW5pdG9yIl0sImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMzNyIsIm5iZiI6MTczMTQzMDk0MCwiZXhwIjoxODI2MDM4OTQwLCJpYXQiOjE3MzE0MzA5NDIsImlzcyI6ImRvdG5ldC11c2VyLWp3dHMifQ.E8tmfU9q6SmWCeWtAVcmc98e7_kvTFQ1CuA1GFmivkI
+
+{
+   "name": "Webstorm",
+   "description": "An IDE for Web Developers"
+}
+
+
+###
+GET {{Api_HostAddress}}/vendors/7473ee24-54d2-48f4-8e84-d240d65e4b16/catalog/d2e97b1e-78f6-4d76-a4d6-e066f8ba9099
+
+
+### 
+
+GET {{Api_HostAddress}}/vendors

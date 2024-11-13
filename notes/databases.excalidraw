@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "m7pFkDFKgSNwCKPiewMpc",
+      "type": "text",
+      "x": 492,
+      "y": 259,
+      "width": 1076.259033203125,
+      "height": 500,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1845989642,
+      "version": 808,
+      "versionNonce": 1355975638,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1731432736169,
+      "link": null,
+      "locked": false,
+      "text": "Jeff Guidance on Database Stuff\n    - If you can, your team should \"own\" your database. nobody else gets access to it.\n\n\n- if you are sharing a database that your team doesn't control, and it is a relational database\n    - my recommendation is to use the Dapper library for data acccess\n        https://github.com/DapperLib/Dapper \n   \n\n- if you are NOT sharing a database, and using a relational database, consider using\n    Microsoft's Entity Framework.\n\n- MongoDb \"no sql\" mongodb does not have good transactional consistency. Itis really good at \n    reading data, but be careful in modification.\n\n- Postgres for just about everything\n    - \"free\"\n    - it does \"no sql\" document stuff and relational stuff really well (maybe even no-sql better than mongo)\n\n    - Postgres - Marten ",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 493,
+      "containerId": null,
+      "originalText": "Jeff Guidance on Database Stuff\n    - If you can, your team should \"own\" your database. nobody else gets access to it.\n\n\n- if you are sharing a database that your team doesn't control, and it is a relational database\n    - my recommendation is to use the Dapper library for data acccess\n        https://github.com/DapperLib/Dapper \n   \n\n- if you are NOT sharing a database, and using a relational database, consider using\n    Microsoft's Entity Framework.\n\n- MongoDb \"no sql\" mongodb does not have good transactional consistency. Itis really good at \n    reading data, but be careful in modification.\n\n- Postgres for just about everything\n    - \"free\"\n    - it does \"no sql\" document stuff and relational stuff really well (maybe even no-sql better than mongo)\n\n    - Postgres - Marten ",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

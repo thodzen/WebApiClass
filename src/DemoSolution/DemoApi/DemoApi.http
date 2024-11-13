@@ -1,0 +1,30 @@
+@Api_HostAddress = http://localhost:1337
+
+###
+
+GET {{Api_HostAddress}}/status
+
+
+
+###
+
+GET {{Api_HostAddress}}/status/1969/4/20
+
+###
+
+GET  {{Api_HostAddress}}/employees?department=QA
+
+
+### 
+
+GET {{Api_HostAddress}}/departments/qa/employees
+
+
+### 
+
+GET  {{Api_HostAddress}}/employees/bob-smith
+
+
+### 
+
+GET  {{Api_HostAddress}}/employee-of-the-month
